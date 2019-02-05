@@ -1,1 +1,1 @@
-web: gunicorn jinja_example:app --log-file=-
+web: gunicorn run:app --log-file=-
